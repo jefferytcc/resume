@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+
+header, body {padding-left: 300px;font-family: 'Montserrat', sans-serif !important;}
+h2, h5{margin-top: 0px !important;margin-bottom: 0px !important:line-height:1em;}
+h3{margin-top: 0.25em !important;margin-bottom: 1em !important;line-height:1em;}
+.row{margin-bottom: 0px !important}
+.col{padding: 0px !important}
+
+@media only screen and (max-width : 992px) 
+{
+header, body, footer {padding-left: 0;}
+.title-content{width: 44em;margin-left: auto;margin-right: auto;position: fixed;top: 30%;left: 25%;}
+
+
+}
+
+.white{color:#fff !important}
+.object-fit {object-fit:cover;width:100%;height:100%}
+
+.side-nav li a.active{color:#f4ad24 !important;}
+
+
+
+.content-title h2 {font-size: 60px;color: #f2f2f2; font-weight: bold;display: block}
+.content-subtitle h3{font-size: 18px;color: #333c4e; font-weight: bold; }
+.content-wrap{padding: 115px 80px 115px 80px}
+.content h6{ font-family: 'Roboto Slab', serif; font-style: italic; line-height: 37px!important;letter-spacing: 1px;font-size: 19px;color:#7e8890;}
+.content-sub-content p {color:#7e8890;line-height: 36px !important}
+.content-sub-content h5 {font-size: 22px! important; line-height: 33px !important}
+
+.seperator{margin-left: auto;margin-right: auto;margin-top: 30px}
+.bg-color-1{background-color: #1c212a}
+.bg-color-2{background-color:#fff}
+.page-footer{padding-top: 0px !important}
+
+.btn-full-width > .btn-large{width: 100% !important; background-color: #f4ad24}
+.img-size img{background-position: left top; background-repeat: no-repeat; background-size: cover; min-height: 1200px; height: auto;display: flex}
+
+.title-content{width: 44em;margin-left: auto;margin-right: auto;position: fixed;top: 30%;left: 40%;z-index: 1}
+.title-content h2{font-size: 5em;font-weight: bold; display: inline-block;line-height: 86px;text-align: left;color:#fff;}
+.title-content h3{font-size: 1.2em;font-weight: bold; display: inline-block;line-height: 86px;text-align: left;color:#fff;}
+
+.parallax {
+    /* The image used */
+    background-image: url('../creative/portfolio/bg1.jpg');
+    /* Set a specific height */
+    min-height: calc(100vh); 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
+
+.home-bg-tint {position: absolute;top: 0;left: 0;height: 100%;width: 100%;background-color: rgba(0,0,0,0.5);}
+
+.page {
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+  }
